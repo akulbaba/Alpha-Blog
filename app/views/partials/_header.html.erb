@@ -2,21 +2,13 @@
 <html>
 <head>
   <title>AlphaBlog</title>
-  <link rel="stylesheet" type="text/css" href="../../assets/stylesheets/pages.css" >
   <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-  
 
 <header>
-  <h1><%= link_to "//Alpha Blog", root_path, class: "navLink" %></h1>
-  <ul>
-    <li><%= link_to "About", about_path, class: "navLink" %></li>
-    <li><%= link_to "Archive", about_path, class: "navLink" %></li>
-    <li><%= link_to "Contact", about_path, class: "navLink" %></li>
-  </ul>
   <div class="headerPic"></div>
 </header>
