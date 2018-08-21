@@ -51,7 +51,7 @@ $navbar-default-bg: WhiteSmoke;
 }
 
 .article-actions {
-  border-top: 1px solid gray;
+  border-top: 1px solid grey;
   padding-top: 5px;
 }
 
@@ -59,10 +59,21 @@ $navbar-default-bg: WhiteSmoke;
   margin-top: 0;
 }
 
+.article-title {
+  font-weight: bold;
+  font-size: 1.7em;
+}
+
+.article-body{
+  border-top: 1px solid grey;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 footer {
   margin-top:45px;
   padding-top:5px;
-  border-top: 1px solid gray;
+  border-top: 1px solid grey;
 }
 
 footer a:hover {
